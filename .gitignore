@@ -1,0 +1,57 @@
+# Nextflow generated files
+work/
+.nextflow/
+.nextflow.log*
+.nextflow.history
+
+# Pipeline results
+results/
+results_africa_raw/
+
+# Downloaded sequencing data
+african_raw_reads/
+african_gbs_download/
+raw_data/
+raw_data_africa/
+
+# Generated working directories
+african_raw_work/
+african_gbs_cohort_work/
+
+# Generated/intermediate files
+_amrfinder_input.fasta
+
+# Large sequencing files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.cram
+*.sam
+
+# Assembly files
+*.fasta
+*.fa
+*.fna
+*.gbk
+*.gff
+
+# Common generated analysis files
+*.tsv
+*.csv
+*.json
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*~

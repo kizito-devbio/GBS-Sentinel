@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use GBS-Genomics-Pipeline, please cite it as below."
+title: "GBS-Genomics-Pipeline"
+version: 1.1.0
+date-released: 2026-07-20
+authors:
+  - family-names: DevBio
+    given-names: Kizito
+    email: kizitosylvester@gmail.com
+repository-code: "https://github.com/kizito-devbio/GBS-Genomics-Pipeline"
+url: "https://github.com/kizito-devbio/GBS-Genomics-Pipeline"
+license: MIT
+keywords:
+  - bioinformatics
+  - nextflow
+  - streptococcus-agalactiae
+  - whole-genome-sequencing
+  - antimicrobial-resistance
+  - phylogenetics
+abstract: >
+  An open-source Nextflow DSL2 pipeline for whole-genome analysis of
+  Streptococcus agalactiae, including QC, assembly, annotation, AMR
+  detection, virulence profiling, MLST, core genome phylogeny, and
+  publication-quality visualization.

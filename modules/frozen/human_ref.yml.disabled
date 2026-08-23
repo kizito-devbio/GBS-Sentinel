@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - ncbi-datasets-cli
+  - bwa=0.7.17
+  - unzip
