@@ -46,10 +46,8 @@ Human-genome decontamination is **not** part of the active workflow (modules ret
 
 ```mermaid
 flowchart TD
-    subgraph INPUT
-        A1[Raw paired-end FASTQ<br/>--raw_dir]
-        A2[Curated FASTA genomes<br/>--curated_dir]
-    end
+    A1[Raw paired-end FASTQ<br/>--raw_dir]
+    A2[Curated FASTA genomes<br/>--curated_dir]
 
     A1 --> B[FASTP_QC]
     B --> C[ASSEMBLY<br/>SPAdes --isolate]
