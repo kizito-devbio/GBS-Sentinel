@@ -1,24 +1,37 @@
 cff-version: 1.2.0
-message: "If you use GBS-Genomics-Pipeline, please cite it as below."
-title: "GBS-Genomics-Pipeline"
-version: 1.1.0
-date-released: 2026-07-20
+message: "If you use GBS-Sentinel, please cite it as below."
+title: "GBS-Sentinel"
+version: 1.0.0
+date-released: 2026-08-24
+
 authors:
-  - family-names: DevBio
-    given-names: Kizito
-    email: kizitosylvester@gmail.com
-repository-code: "https://github.com/kizito-devbio/GBS-Genomics-Pipeline"
-url: "https://github.com/kizito-devbio/GBS-Genomics-Pipeline"
+  - family-names: "Sylvester-Ali"
+    given-names: "Kizito Ibeojo"
+    email: "kizitosylvesterali@gmail.com"
+
+repository-code: "https://github.com/kizito-devbio/GBS-Sentinel"
+url: "https://github.com/kizito-devbio/GBS-Sentinel"
+
 license: MIT
+
 keywords:
   - bioinformatics
   - nextflow
   - streptococcus-agalactiae
-  - whole-genome-sequencing
+  - group-b-streptococcus
+  - genomic-surveillance
+  - pathogen-genomics
   - antimicrobial-resistance
+  - capsular-serotyping
+  - MLST
   - phylogenetics
+  - whole-genome-sequencing
+
 abstract: >
-  An open-source Nextflow DSL2 pipeline for whole-genome analysis of
-  Streptococcus agalactiae, including QC, assembly, annotation, AMR
-  detection, virulence profiling, MLST, core genome phylogeny, and
-  publication-quality visualization.
+  GBS-Sentinel is an open-source Nextflow DSL2 workflow for genomic
+  surveillance of Streptococcus agalactiae (Group B Streptococcus).
+  The workflow accepts paired-end sequencing reads or pre-assembled
+  genomes and integrates genome quality assessment, assembly,
+  functional annotation, MLST, capsular serotyping, antimicrobial
+  resistance detection, virulence profiling, core-genome analysis,
+  phylogenetic analysis, and integrated surveillance reporting.
