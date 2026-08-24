@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use GBS-Sentinel, please cite it as below."
 title: "GBS-Sentinel"
 version: 1.0.0
-date-released: 2026-08-24
+date-released: 2026-08-23
 
 authors:
   - family-names: "Sylvester-Ali"
